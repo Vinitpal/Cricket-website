@@ -5,12 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cricket website</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      :root {
+        --primary-color: #10044a;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="./css/navbar.css" />
   </head>
   <body>
     <!-- Navbar -->
     <nav>
-      <div>
-        <img src="" alt="logo" />
+      <div class="left-side">
+        <img src="./assets/Images/nav-logo.png" alt="logo" />
         <div>
           <!-- Links -->
           <a href="#">Matches</a>
@@ -22,7 +37,7 @@
           <a href="#">More</a>
         </div>
       </div>
-      <form>
+      <form class="right-side">
         <input type="text" placeholder="Search ..." />
         <i class="fa fa-search"></i>
       </form>
