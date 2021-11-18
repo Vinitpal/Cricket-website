@@ -1,0 +1,108 @@
+.match-section {
+  margin: 3rem 0;
+  padding: 1rem 1.2rem;
+}
+
+.match-section .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match-section .heading h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.match-section .heading button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  outline: none;
+  background: var(--tertiary-color);
+  color: var(--white);
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.match-section .heading button:hover {
+  opacity: 0.9;
+}
+
+.match-section .match-card {
+  padding: 0.8rem 1.2rem;
+  width: 23.33%;
+  background-color: var(--white);
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease-in;
+}
+
+.match-section .match-card:hover {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.match-section .match-card .time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match-section .match-card .time h2 {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.match-section .match-card .time span {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.match-section .team-logo {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  margin-right: 1rem;
+}
+
+.match-section .team-logo img {
+  width: 50px;
+  height: 30px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.match-section .team-logo .flag1 {
+  top: 0;
+  left: 0;
+}
+
+.match-section .team-logo .flag2 {
+  bottom: 0;
+  right: 0;
+}
+
+.match-section .match-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match-section .match-info {
+  display: flex;
+  align-items: center;
+}
+
+.match-section .match-info .team-name h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.match-section .match-info .team-name p {
+  margin: 0.4rem 0 0;
+  font-size: 0.8rem;
+}
