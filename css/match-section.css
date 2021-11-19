@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 0 3rem;
 }
 
 .match-section .heading h1 {
@@ -31,18 +32,24 @@
   opacity: 0.9;
 }
 
+.match-section .match-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .match-section .match-card {
   padding: 0.8rem 1.2rem;
   width: 23.33%;
   background-color: var(--white);
   border-radius: 8px;
   cursor: pointer;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.4s ease-in;
 }
 
 .match-section .match-card:hover {
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
 .match-section .match-card .time {
@@ -53,7 +60,7 @@
 
 .match-section .match-card .time h2 {
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .match-section .match-card .time span {
@@ -83,12 +90,6 @@
 .match-section .team-logo .flag2 {
   bottom: 0;
   right: 0;
-}
-
-.match-section .match-card-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .match-section .match-info {
