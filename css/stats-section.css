@@ -1,0 +1,123 @@
+.stats-section {
+  padding: 0.5rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: fit-content;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.stats-section .heading {
+  margin: 2rem 0;
+}
+
+.stats-section .heading h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.stats-section .heading h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.stats-section .match-card-container {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+
+.stats-section .match-card-container .player-match-card {
+  width: 90%;
+  height: 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 0.8rem 0;
+  text-align: left;
+  background-color: var(--tertiary-color);
+}
+
+.stats-section .match-card-container .player-match-card .player {
+  width: 40%;
+  height: 100%;
+}
+
+.stats-section .match-card-container .player-match-card .player img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stats-section .match-card-container .player-match-card .info h3,
+.stats-section .match-card-container .match-card h3 {
+  margin: 0.2rem 0 1rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.stats-section .match-card-container .player-match-card .info h5,
+.stats-section .match-card-container .match-card h5 {
+  margin: 0;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.stats-section .match-card-container .player-match-card .info h2,
+.stats-section .match-card-container .match-card h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.stats-section .match-card-container .player-match-card .info h1,
+.stats-section .match-card-container .match-card h1 {
+  margin: 0.7rem 0 0;
+  color: var(--yellow);
+  font-size: 2.4rem;
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.stats-section .match-card-container .match-card {
+  width: 90%;
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.8rem 0;
+  text-align: center;
+  background-color: var(--tertiary-color);
+}
+
+.stats-section .match-card-container .match-card .circle {
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 100%;
+  border: 1.2rem solid var(--yellow);
+  margin: 0.5rem 0;
+}
+
+.stats-section .match-card-container .match-card .circle h1,
+.stats-section .match-card-container .match-card .circle h3 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.stats-section .match-card-container .match-card h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-style: italic;
+}
