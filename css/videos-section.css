@@ -111,3 +111,26 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .videos-section {
+    margin: 1rem 0;
+    padding: 0rem 1.2rem;
+  }
+
+  .videos-section .heading {
+    margin: 0 0 0.5rem;
+  }
+
+  .videos-section .videos-container {
+    flex-direction: column;
+  }
+
+  .videos-section .videos-container .video-card {
+    width: 95%;
+    height: fit-content;
+    padding: 0 0 1rem;
+    margin: 1rem 0;
+  }
+}
