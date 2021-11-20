@@ -114,6 +114,15 @@
     margin: 0 0 0.5rem;
   }
 
+  .match-section .heading h1 {
+    font-size: 1.2rem;
+  }
+
+  .match-section .heading button {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.7rem;
+  }
+
   .match-section .match-card-container {
     flex-direction: column;
   }

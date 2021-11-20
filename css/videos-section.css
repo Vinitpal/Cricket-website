@@ -123,6 +123,15 @@
     margin: 0 0 0.5rem;
   }
 
+  .videos-section .heading h1 {
+    font-size: 1.2rem;
+  }
+
+  .videos-section .heading button {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.7rem;
+  }
+
   .videos-section .videos-container {
     flex-direction: column;
   }
@@ -132,5 +141,18 @@
     height: fit-content;
     padding: 0 0 1rem;
     margin: 1rem 0;
+  }
+
+  .videos-section .videos-container .video-card .video-info {
+    padding: 0.4rem;
+    height: 7rem;
+  }
+
+  .videos-section .videos-container .video-card .video-info h1 {
+    font-size: 1.1rem;
+  }
+
+  .videos-section .videos-container .video-card .video-info div span {
+    font-size: 0.6rem;
   }
 }

@@ -110,3 +110,33 @@
 .venues-section .venues-container .venues-card .info p {
   font-size: 0.8rem;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .venues-section .heading {
+    margin: 0 0 0.5rem;
+  }
+
+  .venues-section .heading h1 {
+    font-size: 1.2rem;
+  }
+
+  .venues-section .heading button {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .venues-section .venues-container {
+    flex-direction: column;
+  }
+
+  .venues-section .venues-container .venues-card {
+    margin: 1rem 0;
+    width: 95%;
+    height: fit-content;
+  }
+
+  .venues-section .venues-container .venues-card .info {
+    padding: 0.3rem;
+  }
+}
