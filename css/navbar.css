@@ -57,3 +57,18 @@ nav .right-side i {
 nav .right-side i:hover {
   background-color: var(--secondary-color);
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav {
+    align-items: center;
+    justify-content: center;
+  }
+  nav a {
+    display: none;
+  }
+
+  nav .right-side {
+    display: none;
+  }
+}
