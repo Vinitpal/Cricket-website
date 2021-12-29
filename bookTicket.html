@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/Images/logo.png" />
+
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/bookTicket.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      :root {
+        --primary-color: #10044a;
+        --secondary-color: #ff3054;
+        --tertiary-color: #7729ee;
+        --white: #fffffe;
+        --yellow: #ffe500;
+      }
+      nav {
+        background: var(--primary-color);
+      }
+    </style>
+    <title>Book Tickets</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left-side">
+        <img src="./assets/Images/nav-logo.png" alt="logo" />
+        <div class="navlinks">
+          <!-- Links -->
+          <a href="#">Matches</a>
+          <a href="#">Standing</a>
+          <a href="#">Video</a>
+          <a href="#">News</a>
+          <a href="#">Teams</a>
+          <a href="./ticket.html">Tickets</a>
+          <a href="#">More</a>
+        </div>
+      </div>
+      <form class="right-side">
+        <input type="text" placeholder="Search ..." />
+        <i class="fa fa-search"></i>
+      </form>
+    </nav>
+
+    <!-- form -->
+    <section class="ticket-section">
+      <form>
+        <h1 style="text-align: center">Book Your Ticket Now</h1>
+        <h4 style="text-align: center">&#8377; 500</h4>
+        <div class="inputs">
+          <label for="username"> Enter Username </label>
+          <input type="text" id="username" required />
+          <label for="email"> Enter Email </label>
+          <input type="email" id="email" required />
+          <label for="number"> Enter Phone Number </label>
+          <input
+            type="number"
+            id="number"
+            required
+            pattern="((\+*)((0[ -]*)*|((91 )*))((\d{12})+|(\d{10})+))|\d{5}([- ]*)\d{6}"
+            minlength="10"
+            maxlength="10"
+          />
+        </div>
+        <button type="submit" class="ticket-button">Book Ticket</button>
+      </form>
+    </section>
+
+    <script src="./bookTicket.js"></script>
+  </body>
+</html>

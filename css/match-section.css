@@ -108,6 +108,21 @@
   font-size: 0.8rem;
 }
 
+.match-section .match-info .team-name .book-ticket {
+  outline: none;
+  border: 2px solid var(--secondary-color);
+  transform: skew(-10deg);
+  margin: 10px 0;
+  background: var(--secondary-color);
+  width: 50%;
+  height: 33px;
+}
+
+.match-section .match-info .team-name .book-ticket a {
+  text-decoration: none;
+  color: var(--white);
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .match-section .heading {
